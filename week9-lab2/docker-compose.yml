@@ -1,6 +1,6 @@
 services :
   frontend : 
-    build : ./mybook
+    build : ./MyBookStore-main
     ports : 
       - "3001:80"
     restart : unless-stopped
